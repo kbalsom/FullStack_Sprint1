@@ -1,0 +1,30 @@
+{
+  "name": "s3_sprint1_grp2",
+  "version": "1.0.0",
+  "description": "fullstack js group project building CLI/web, with token generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakenzieRoberts/S3_Full-Stack_Sprint1.git"
+  },
+  "keywords": [],
+  "author": "Kara Balsom, Glen May, Makenzie Roberts, and David Turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prawstho/WeekSix/issues"
+  },
+  "homepage": "https://github.com/prawstho/WeekSix#readme",
+  "dependencies": {
+    "crc": "^4.1.1",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
